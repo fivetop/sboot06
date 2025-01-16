@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+Customer List
+<table border="1">
+  <thead>
+  <tr>
+    <th>username</th>
+    <th>customerName</th>
+    <th>reviews</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="customer : ${cusList}">
+    <td th:text="${customer.username}">username</td>
+    <td th:text="${customer.customerName}">customerName</td>
+    <td>
+      <ul>
+        <li th:each="review : ${customer.reviews}" th:text="${review.content}">Review content</li>
+      </ul>
+    </td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
