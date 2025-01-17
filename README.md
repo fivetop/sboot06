@@ -1,4 +1,4 @@
-# sboot06 (FastCampus Sample Project)
+![image](https://github.com/user-attachments/assets/ecc0ee28-7acc-43cb-aca3-e73091335a31)# sboot06 (FastCampus Sample Project)
 
 2025.01.08
 1. SpringBoot Sample
@@ -11,5 +11,8 @@
    
 2025.01.17
 1. CI Github Actions 추가
+2. Java with Gradle 선택
+3. Build error -  run : ./gradlew clean build --exclude-task test
+4. test module 제외 빌드 
 
-
+![image](https://github.com/user-attachments/assets/ff00e960-9d8b-4937-a571-170affef8511)
