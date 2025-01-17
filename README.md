@@ -1,4 +1,4 @@
-# sboot06
+# sboot06 (FastCampus Sample Project)
 
 2025.01.08
 1. SpringBoot Sample
