@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/ecc0ee28-7acc-43cb-aca3-e73091335a31)# sboot06 (FastCampus Sample Project)
 
 2025.01.08
 1. SpringBoot Sample
