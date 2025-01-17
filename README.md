@@ -10,6 +10,6 @@
 7. Themeleaf
    
 2025.01.17
-1. CI Actions 추가
+1. CI Github Actions 추가
 
 
